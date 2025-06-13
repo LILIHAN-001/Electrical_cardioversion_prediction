@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = joblib.load('ET.pkl')  # 加载训练好的ET模型
+model = joblib.load('model.pkl')  # 加载训练好的ET模型
 
 # Define the feature options for AtrialFibrillationType
 af_type_options = {
